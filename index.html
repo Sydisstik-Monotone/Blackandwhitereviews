@@ -5,12 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Black and White Review</title>
     <style>
+        /* Styling for the left sidebar */
+        .sidebar {
+            width: 20%;
+            height: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            float: left;
+        }
+
         /* Styling for the container */
         .container {
+            width: 60%;
             height: 15px;
             background-color: black;
             text-align: center;
             padding: 5px 0;
+            margin: 0 auto; /* Center the container */
+        }
+
+        /* Styling for the right sidebar */
+        .sidebar {
+            width: 20%;
+            height: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            float: right;
         }
 
         /* Styling for the text */
@@ -18,12 +40,24 @@
             color: red;
             font-size: 15px;
         }
+
+        /* Clearing floats to prevent layout issues */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
     </style>
 </head>
 <body>
+    <div class="sidebar">
+        <!-- Content for the left sidebar goes here -->
+        <p>Left Sidebar</p>
+    </div>
+
     <div class="container">
+        <!-- Content for the main container goes here -->
         <div class="text">Welcome to Black and White Review</div>
     </div>
-    <!-- The rest of your content goes here -->
-</body>
-</html>
+
+    <div class="
