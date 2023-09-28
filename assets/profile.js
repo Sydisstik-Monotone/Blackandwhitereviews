@@ -1,1 +1,0 @@
-import './web/js/profile.js'

@@ -1,5 +1,0 @@
-import 'jquery'
-import 'jquery-validation'
-import 'bootstrap'
-import './web/css/style.scss'
-import './web/js/web.js'

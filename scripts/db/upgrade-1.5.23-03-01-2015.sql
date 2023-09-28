@@ -1,1 +1,0 @@
-ALTER TABLE `privatemessages` CHANGE `message` `message` BLOB NOT NULL; 
