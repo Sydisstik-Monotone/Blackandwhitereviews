@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website with Footer</title>
+    <style>
+        /* Styling for the footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Styling for the list and list items */
+        ul.footer-links {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul.footer-links li {
+            display: inline;
+            margin: 0 20px; /* Adjust the margin to control spacing */
+        }
+
+        ul.footer-links li:not(:last-child)::after {
+            content: "|"; /* Add a vertical bar between items */
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Your content goes here -->
+    
+    <!-- Footer section -->
+    <footer>
+        <ul class="footer-links">
+            <li><a href="https://www.youtube.com/">YouTube</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
