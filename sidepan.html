@@ -20,12 +20,12 @@
         }
 
         /* Styling for the list */
-        .number-list {
+        .menu-list {
             list-style-type: none;
             padding: 0;
         }
 
-        .number-list-item {
+        .menu-list-item {
             margin-bottom: 10px;
             font-size: 18px;
         }
@@ -33,10 +33,10 @@
 </head>
 <body>
     <div class="left-panel">
-        <ul class="number-list">
+        <ul class="menu-list">
             <?php
             for ($i = 1; $i <= 10; $i++) {
-                echo "<li class='number-list-item'>$i</li>";
+                echo "<li class='menu-list-item'>Show $i</li>";
             }
             ?>
         </ul>
