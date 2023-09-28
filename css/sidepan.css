@@ -34,8 +34,7 @@
 <body>
     <div class="left-panel">
         <ul class="menu-list">
-            <?php
-            for ($i = 1; $i <= 10; $i++) {
+            <?php 
                 echo "<li class='menu-list-item'>Show $i</li>";
             }
             ?>
