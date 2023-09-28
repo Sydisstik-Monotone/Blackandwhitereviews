@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left Panel</title>
+    <style>
+        /* Styling for the left panel */
+        .left-panel {
+            width: 200px;
+            height: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            overflow-y: auto; /* Enable scrolling if content exceeds the panel height */
+        }
+
+        /* Styling for the list */
+        .number-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .number-list-item {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left-panel">
+        <ul class="number-list">
+            <?php
+            for ($i = 1; $i <= 10; $i++) {
+                echo "<li class='number-list-item'>$i</li>";
+            }
+            ?>
+        </ul>
+    </div>
+    <!-- Rest of your content goes here -->
+</body>
+</html>
